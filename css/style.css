@@ -128,3 +128,25 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+ @media all and (min-width: 769px) {
+    .container {
+        max-width: 1140px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}
+
+/**** solution responsive from desktop ****/
+
+ @media all and (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+ }
+
+/**** solution responsive from tablet ****/
+
+ 
