@@ -149,4 +149,51 @@ img {
 
 /**** solution responsive from tablet ****/
 
- 
+@media all and (max-width: 480px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .lessons .col {
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .steps .col {
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+        text-align: center
+    }
+
+    .lessons .col img {
+        height: 200px;
+        margin: 1rem 0;
+    }
+
+    .steps .col img {
+        height: 200px;
+        margin: 1rem 0;
+    }
+
+    .col-left img {
+        height: 200px;
+        margin-bottom: 1rem;
+    }
+ }
+
+ /**** solution responsive from mobile ****/
